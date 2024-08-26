@@ -10,7 +10,7 @@ A few helpful commands for `openssl`
 domain="scog.in"
 
 # Run the command
-echo | openssl s_client -connect twitter.com:443 2>/dev/null
+echo | openssl s_client -connect ${domain}:443 2>/dev/null
 ```
 
 ### Check certificate expiry
