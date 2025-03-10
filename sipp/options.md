@@ -2,7 +2,7 @@
 
 This tutorial references the [`./etc/options-ping.xml`](./etc/options-ping.xml) template
 
-1. Assign your variables:
+1. Assign your environment variables:
 ```bash
 myuser="someUser"         # username for the OPTIONS ping
 remote_ip="10.10.0.50"    # IP of the remote SIP endpoint
